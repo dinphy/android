@@ -3,7 +3,7 @@
 
   <!-- MoKee Open Source additions -->
   <project path="android" name="MoKee/android" />
-  <project path="bootable/recovery-twrp" name="MoKee/android_bootable_recovery-twrp" groups="pdk" />
+  <!--project path="bootable/recovery-twrp" name="MoKee/android_bootable_recovery-twrp" groups="pdk" />-->
   <project path="device/mokee/sepolicy" name="MoKee/android_device_mokee_sepolicy" />
   <project path="external/bash" name="MoKee/android_external_bash" />
   <project path="external/exfat" name="MoKee/android_external_exfat" />
@@ -36,16 +36,16 @@
   <!--<project path="hardware/ti/wpan" name="MoKee/android_hardware_ti_wpan" />-->
   <project path="mokee-sdk" name="MoKee/android_mokee-sdk" />
   <!--<project path="packages/apps/Aegis" name="MoKee/android_packages_apps_Aegis" />-->
-  <project path="packages/apps/AudioFX" name="MoKee/android_packages_apps_AudioFX" />
-  <project path="packages/apps/Eleven" name="MoKee/android_packages_apps_Eleven" />
+  <!--<project path="packages/apps/AudioFX" name="MoKee/android_packages_apps_AudioFX" />-->
+  <!--<project path="packages/apps/Eleven" name="MoKee/android_packages_apps_Eleven" />-->
   <!--<project path="packages/apps/Exchange" name="MoKee/android_packages_apps_Exchange" />-->
   <project path="packages/apps/FMRadio" name="MoKee/android_packages_apps_FMRadio" />
-  <project path="packages/apps/Jelly" name="MoKee/android_packages_apps_Jelly" />
+  <!--project path="packages/apps/Jelly" name="MoKee/android_packages_apps_Jelly" />-->
   <project path="packages/apps/Lawnchair" name="MoKee/android_packages_apps_Lawnchair" />
   <!--<project path="packages/apps/LockClock" name="MoKee/android_packages_apps_LockClock" />-->
   <project path="packages/apps/MKCenter" name="MoKee/android_packages_apps_MKCenter" />
   <project path="packages/apps/MKParts" name="MoKee/android_packages_apps_MKParts" />
-  <project path="packages/apps/Profiles" name="MoKee/android_packages_apps_Profiles" />
+  <!--<project path="packages/apps/Profiles" name="MoKee/android_packages_apps_Profiles" />-->
   <project path="packages/apps/Recorder" name="MoKee/android_packages_apps_Recorder" />
   <project path="packages/apps/SetupWizard" name="MoKee/android_packages_apps_SetupWizard" />
   <project path="packages/apps/Snap" name="MoKee/android_packages_apps_Snap" />
@@ -76,32 +76,32 @@
   <project path="external/ebtables" name="MoKee/android_external_ebtables" />
   <project path="external/json-c" name="MoKee/android_external_json-c" />
   <project path="external/powertop" name="MoKee/android_external_powertop" />
-  <project path="hardware/qcom/audio-caf/apq8084" name="MoKee/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="mko-mr1-caf-8084" />
+  <!--<project path="hardware/qcom/audio-caf/apq8084" name="MoKee/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="mko-mr1-caf-8084" />-->
   <project path="hardware/qcom/audio-caf/msm8916" name="MoKee/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="mko-mr1-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="MoKee/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="mko-mr1-caf-8952" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="MoKee/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="mko-mr1-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="MoKee/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="mko-mr1-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="MoKee/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="mko-mr1-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="MoKee/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="mko-mr1-caf-8996" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="MoKee/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="mko-mr1-caf-8998" />
+  <!--<project path="hardware/qcom/audio-caf/msm8952" name="MoKee/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="mko-mr1-caf-8952" />-->
+  <!--<project path="hardware/qcom/audio-caf/msm8960" name="MoKee/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="mko-mr1-caf-8960" />-->
+  <!--<project path="hardware/qcom/audio-caf/msm8974" name="MoKee/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="mko-mr1-caf-8974" />-->
+  <!--<project path="hardware/qcom/audio-caf/msm8994" name="MoKee/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="mko-mr1-caf-8994" />-->
+  <!--<project path="hardware/qcom/audio-caf/msm8996" name="MoKee/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="mko-mr1-caf-8996" />-->
+  <!--<project path="hardware/qcom/audio-caf/msm8998" name="MoKee/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="mko-mr1-caf-8998" />-->
   <project path="hardware/qcom/bt-caf" name="MoKee/android_hardware_qcom_bt" groups="qcom,pdk" revision="mko-mr1-caf" />
-  <project path="hardware/qcom/display-caf/apq8084" name="MoKee/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="mko-mr1-caf-8084" />
+  <!--<project path="hardware/qcom/display-caf/apq8084" name="MoKee/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="mko-mr1-caf-8084" />-->
   <project path="hardware/qcom/display-caf/msm8916" name="MoKee/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="mko-mr1-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8952" name="MoKee/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="mko-mr1-caf-8952" />
-  <project path="hardware/qcom/display-caf/msm8960" name="MoKee/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="mko-mr1-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="MoKee/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="mko-mr1-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8994" name="MoKee/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="mko-mr1-caf-8994" />
-  <project path="hardware/qcom/display-caf/msm8996" name="MoKee/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="mko-mr1-caf-8996" />
-  <project path="hardware/qcom/display-caf/msm8998" name="MoKee/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="mko-mr1-caf-8998" />
+  <!--<project path="hardware/qcom/display-caf/msm8952" name="MoKee/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="mko-mr1-caf-8952" />-->
+  <!--<project path="hardware/qcom/display-caf/msm8960" name="MoKee/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="mko-mr1-caf-8960" />-->
+  <!--<project path="hardware/qcom/display-caf/msm8974" name="MoKee/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="mko-mr1-caf-8974" />-->
+  <!--<project path="hardware/qcom/display-caf/msm8994" name="MoKee/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="mko-mr1-caf-8994" />-->
+  <!--<project path="hardware/qcom/display-caf/msm8996" name="MoKee/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="mko-mr1-caf-8996" />-->
+  <!--<project path="hardware/qcom/display-caf/msm8998" name="MoKee/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="mko-mr1-caf-8998" />-->
   <project path="hardware/qcom/fm" name="MoKee/android_hardware_qcom_fm" groups="qcom,qcom_fm" />
-  <project path="hardware/qcom/media-caf/apq8084" name="MoKee/android_hardware_qcom_media" groups="qcom,pdk" revision="mko-mr1-caf-8084" />
+  <!--<project path="hardware/qcom/media-caf/apq8084" name="MoKee/android_hardware_qcom_media" groups="qcom,pdk" revision="mko-mr1-caf-8084" />-->
   <project path="hardware/qcom/media-caf/msm8916" name="MoKee/android_hardware_qcom_media" groups="qcom,pdk" revision="mko-mr1-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8952" name="MoKee/android_hardware_qcom_media" groups="qcom,pdk" revision="mko-mr1-caf-8952" />
-  <project path="hardware/qcom/media-caf/msm8960" name="MoKee/android_hardware_qcom_media" groups="qcom,pdk" revision="mko-mr1-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="MoKee/android_hardware_qcom_media" groups="qcom,pdk" revision="mko-mr1-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8994" name="MoKee/android_hardware_qcom_media" groups="qcom,pdk" revision="mko-mr1-caf-8994" />
-  <project path="hardware/qcom/media-caf/msm8996" name="MoKee/android_hardware_qcom_media" groups="qcom,pdk" revision="mko-mr1-caf-8996" />
-  <project path="hardware/qcom/media-caf/msm8998" name="MoKee/android_hardware_qcom_media" groups="qcom,pdk" revision="mko-mr1-caf-8998" />
+  <!--<project path="hardware/qcom/media-caf/msm8937" name="MoKee/android_hardware_qcom_media" groups="qcom,pdk" revision="mko-mr1-caf-8937" />-->
+  <!--<project path="hardware/qcom/media-caf/msm8952" name="MoKee/android_hardware_qcom_media" groups="qcom,pdk" revision="mko-mr1-caf-8952" />-->
+  <!--<project path="hardware/qcom/media-caf/msm8960" name="MoKee/android_hardware_qcom_media" groups="qcom,pdk" revision="mko-mr1-caf-8960" />-->
+  <!--<project path="hardware/qcom/media-caf/msm8974" name="MoKee/android_hardware_qcom_media" groups="qcom,pdk" revision="mko-mr1-caf-8974" />-->
+  <!--<project path="hardware/qcom/media-caf/msm8994" name="MoKee/android_hardware_qcom_media" groups="qcom,pdk" revision="mko-mr1-caf-8994" />-->
+  <!--<project path="hardware/qcom/media-caf/msm8996" name="MoKee/android_hardware_qcom_media" groups="qcom,pdk" revision="mko-mr1-caf-8996" />-->
   <project path="hardware/qcom/power" name="MoKee/android_hardware_qcom_power" groups="qcom,pdk" />
   <project path="hardware/qcom/wlan-caf" name="MoKee/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="mko-mr1-caf" />
   <project path="hardware/ril-caf" name="MoKee/android_hardware_ril" groups="pdk" revision="mko-mr1-caf" />
@@ -113,4 +113,12 @@
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
   <project path="vendor/qcom/opensource/rcs-service" name="MoKee/android_vendor_qcom_opensource_rcs-service" />
+
+  <project path="device/qcom/common" name="MoKee/android_device_qcom_common" remote="github" revision="mko-mr1" />
+  <project path="device/xiaomi/ido" name="dinphy/mokee_device_xiaomi_ido" remote="github" revision="lineage-15.1" />
+  <project path="kernel/xiaomi/msm8916" name="KudProject/kernel_xiaomi_msm8916" remote="github" revision="oreo-mr1" />
+    <project path="external/sony/boringssl-compat" name="MoKee/android_external_sony_boringssl-compat" remote="github" revision="mko-mr1" />
+  <project path="external/stlport" name="MoKee/android_external_stlport" remote="github" revision="mko-mr1" />
+  <project path="vendor/xiaomi" name="KudProject/proprietary_vendor_xiaomi" remote="github" revision="oreo-mr1" />
+
 </manifest>
